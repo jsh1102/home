@@ -131,6 +131,8 @@ a{
 
 .head{
     /* margin-bottom: 5vh; */
+    margin-top: 2%;
+    background-color: #6e6e67;
     display: flex;
     justify-content: space-between;
     align-items: center;
