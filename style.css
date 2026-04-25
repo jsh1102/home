@@ -372,8 +372,8 @@ a{
     font-size: 5vh;
 }
 
-#up-animation{
-    transition: all 3s;
+html {
+    scroll-behavior: smooth;
 }
 
 
