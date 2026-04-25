@@ -25,11 +25,12 @@ body{
     /*
     background-image: url(images/backgroundimage2.png);
     */
-    background-color: #1c1c19;
     background-size: contain;
     /* margin-top: 3%; */
     margin-left: 3%;
     margin-right: 3%;
+    margin: 0;
+    background-color: #1c1c19;
 }
 
 .container{
@@ -37,6 +38,8 @@ body{
     height: 100vh; 
     overflow-y: scroll; 
     scroll-snap-type: y mandatory;
+    transition: background-color 0.8s ease; 
+    background-color: #1c1c19;
 }
 
 ::-webkit-scrollbar {
@@ -132,7 +135,6 @@ a{
 .head{
     /* margin-bottom: 5vh; */
     margin-top: 2%;
-    background-color: #6e6e67;
     display: flex;
     justify-content: space-between;
     align-items: center;

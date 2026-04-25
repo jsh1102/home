@@ -30,3 +30,25 @@ const words = ["향상하는", "열정적인", "배가고픈", "도전적인", "
   }
 
   document.addEventListener("DOMContentLoaded", typeEffect);
+
+  const container = document.querySelector('.container');
+const boxes = document.querySelectorAll('.start-box, .mid-box, .last-box');
+
+const options = {
+    root: container,
+    threshold: 0.5 // 섹션이 50% 이상 보일 때 색상 변경
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // HTML에 설정한 data-color 값을 가져옴
+            const bgColor = entry.target.getAttribute('data-color');
+            if (bgColor) {
+                container.style.backgroundColor = bgColor;
+            }
+        }
+    });
+}, options);
+
+boxes.forEach(box => observer.observe(box));
