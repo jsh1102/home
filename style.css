@@ -3,12 +3,14 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
+    color: white;
 }
 
 .libertinus-mono-regular {
   font-family: "Libertinus Mono", monospace;
   font-weight: 400;
   font-style: normal;
+  color: white;
 }
 
 
@@ -16,6 +18,7 @@
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 200;
     font-style: normal;
+    color: white;
 }
 
 body{
