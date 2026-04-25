@@ -313,9 +313,12 @@ a{
 /** ============== mid-box ============== */
 
 .mid-box{
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
     justify-content: center;
-    margin-bottom: 50vh;
-    display: grid;
+    align-items: center;
 }
 
 .intro-inner-box{
@@ -345,9 +348,13 @@ a{
 /* ============ last-box ============ */
 
 .last-box{
-    justify-content: center;
     /* text-align: center; */
-    display: grid;
+    width: 100%;
+    height: 100vh; 
+    scroll-snap-align: start; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skill-htag1{
