@@ -422,6 +422,8 @@ html {
 
 .box{
     display: flex;
+    align-items: center;
+    display: flex;
     gap: 1vh;
     height: 5vh;
     width: 5vh;
