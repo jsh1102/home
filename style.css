@@ -372,6 +372,10 @@ a{
     font-size: 5vh;
 }
 
+#up-animation{
+    transition: all 3s;
+}
+
 
 /**  ======== footer ========  */
 
