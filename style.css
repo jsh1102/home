@@ -51,12 +51,6 @@ h1{
     margin-bottom: 0px;
 }
 
-.head{
-    position: fixed;
-    align-items: center;
-    /* display: grid; */
-}
-
 .menu-box{
     display: flex;
     align-items: center;
@@ -134,6 +128,7 @@ a{
 
 .head{
     /* margin-bottom: 5vh; */
+    position: fixed;
     margin-top: 2%;
     display: flex;
     justify-content: space-between;
