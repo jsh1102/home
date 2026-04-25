@@ -59,10 +59,10 @@ h1{
     height: 4.9vh;
 }
 
-#menu-image:hover{
+/* #menu-image:hover{
     transition: all 3s;
     transform: rotate(360deg);
-}
+} */
 
 
 #home-sweet-home{
@@ -265,8 +265,8 @@ a{
     transition: visibility 0s linear 2s;
     width: 20vh;
     height: 6vh;
-    background-color: rgba(255, 196, 47, 0.774);
-    color: black;
+    background-color: #6e6e67;
+    color: white;
     border-radius: 1vh;
     font-family: "SUITE-Regular";
     font-size: 1.3vh;
