@@ -420,7 +420,7 @@ html {
     align-items: center;
 }
 
-.link-inner-box{
+.box{
     display: flex;
     gap: 1vh;
     height: 5vh;
