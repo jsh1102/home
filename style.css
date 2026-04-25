@@ -421,6 +421,8 @@ html {
 }
 
 .link-inner-box{
+    display: flex;
+    gap: 1vh;
     height: 5vh;
     width: 5vh;
     background-color: #6e6e67;
