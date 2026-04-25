@@ -165,14 +165,15 @@ a{
   display: inline-block;
   animation: wave-natural 2s ease-in-out infinite;
   animation-delay: 0s;
-  animation-duration: 7s; /* 2초 흔들리고, 3초 쉬고 반복 */
+  animation-duration: 7s; 
 }
 
 .circle1{
     position: absolute;
     margin-top: -6vh;
     margin-left: -1vh;
-    color: rgba(255, 196, 47);
+    /* color: rgba(255, 196, 47); */
+    color: #6e6e67;
     font-size: 1.2vh;
 }
 
@@ -182,8 +183,9 @@ a{
     transition: visibility 0s linear 2s;
     width: 17vh;
     height: 6vh;
-    background-color: rgba(255, 196, 47, 0.774);
-    color: black;
+    /* background-color: rgba(255, 196, 47, 0.774); */
+    background-color: #6e6e67;
+    color: white;
     border-radius: 1vh;
     font-family: "SUITE-Regular";
     font-size: 1.3vh;
@@ -252,7 +254,8 @@ a{
     position: absolute;
     margin-top: -5.6vh;
     margin-left: -2vh;
-    color: rgba(255, 196, 47);
+    /* color: rgba(255, 196, 47); */
+    color: #6e6e67;
     font-size: 1.2vh;   
 }
 
@@ -304,6 +307,7 @@ a{
 
 .intro-inner-box{
     font-size: 6vh;
+    color: white;
 }
 
 #typed-word {
@@ -348,7 +352,7 @@ a{
 }
 
 .skill-box-outer{
-    background-color: rgba(150, 232, 252, 0.308);
+    background-color: #6e6e67;
     border-radius: 2vh;
     width: 130vh;
     height: 70vh;
